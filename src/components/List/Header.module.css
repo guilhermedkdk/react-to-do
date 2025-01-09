@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 2.125rem;
+  margin-bottom: 1.5rem;
+}
+
+.container aside {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-weight: bold;
+}
+
+.container aside span {
+  padding: 0.125rem 0.5rem;
+  border-radius: 16px;
+
+  font-size: 0.75rem;
+
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+}
+
+.container aside:first-child {
+  color: var(--blue);
+}
+
+.container aside:last-child {
+  color: var(--purple);
+}
